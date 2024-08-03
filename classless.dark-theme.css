@@ -254,7 +254,8 @@
   }
   
   legend {
-    font-size: 0.9em;
+    font-size: 1em;
+    text-align: center;
     font-weight: 600;
   }
   
@@ -553,3 +554,39 @@
     }
   }
   
+  /* Basic table styling */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Merges table borders */
+  margin: 20px 0; /* Adds space above and below the table */
+}
+
+/* Table headers */
+th {
+  background-color: #f4f4f4; /* Light gray background for headers */
+  padding: 12px; /* Adds padding inside header cells */
+  text-align: left; /* Aligns text to the left */
+  border-bottom: 2px solid #ddd; /* Adds a bottom border to header cells */
+}
+
+/* Table data cells */
+td {
+  padding: 10px; /* Adds padding inside data cells */
+  border-bottom: 1px solid #ddd; /* Adds a bottom border to data cells */
+}
+
+/* Table rows */
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternates row background color for readability */
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Changes row background color on hover */
+}
+
+/* Table caption */
+caption {
+  font-size: 1.5em; /* Larger font size for the caption */
+  margin: 10px 0; /* Adds space above and below the caption */
+  text-align: left; /* Aligns caption text to the left */
+}

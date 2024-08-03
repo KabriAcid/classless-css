@@ -1,14 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minimal CSS with less</title>
     <link rel="stylesheet" href="classless.dark-theme.css">
 </head>
+
 <body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
-       
+        <section>
+            <h1>Welcome to Classless CSS</h1>
+            <p>This is a simple demonstration of how Classless CSS can be used.</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send</button>
+                </fieldset>
+            </form>
+
+            <section>
+                <h1>Alias Data Table</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Alias</th>
+                            <th>Real Name</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ShadowFox</td>
+                            <td>Alex Johnson</td>
+                            <td>alex.johnson@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>NightHawk</td>
+                            <td>Emily Davis</td>
+                            <td>emily.davis@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>StormRider</td>
+                            <td>Michael Brown</td>
+                            <td>michael.brown@example.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <blockquote>
+                <p>"Classless CSS makes styling simple and effective with minimal effort."</p>
+                <footer>— Your Name</footer>
+            </blockquote>
+
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+
+            <p>Check out the <a href="#">Classless CSS documentation</a> for more details.</p>
+        </section>
     </main>
+
+    <footer>
+        <p>&copy; 2024 Classless CSS. All rights reserved.</p>
+    </footer>
+
+
 </body>
+
 </html>
