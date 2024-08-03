@@ -563,7 +563,6 @@ table {
 
 /* Table headers */
 th {
-  background-color: #f4f4f4; /* Light gray background for headers */
   padding: 12px; /* Adds padding inside header cells */
   text-align: left; /* Aligns text to the left */
   border-bottom: 2px solid #ddd; /* Adds a bottom border to header cells */
@@ -577,16 +576,59 @@ td {
 
 /* Table rows */
 tr:nth-child(even) {
-  background-color: #f9f9f9; /* Alternates row background color for readability */
+  background-color: #303d4c; /* Alternates row background color for readability */
 }
 
-tr:hover {
-  background-color: #f1f1f1; /* Changes row background color on hover */
-}
 
 /* Table caption */
 caption {
   font-size: 1.5em; /* Larger font size for the caption */
   margin: 10px 0; /* Adds space above and below the caption */
   text-align: left; /* Aligns caption text to the left */
+}
+
+/* Basic navbar container */
+nav {
+  background-color: #333; /* Dark background color for the navbar */
+  padding: 10px 20px; /* Padding around the navbar */
+}
+
+/* Navbar list styles */
+nav ul {
+  list-style-type: none; /* Removes default list bullet points */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  display: flex; /* Aligns list items horizontally */
+  justify-content: space-around; /* Distributes items evenly */
+}
+
+/* Navbar list items */
+nav li {
+  margin: 0; /* Removes default margin */
+}
+
+/* Navbar links */
+nav a {
+  color: #fff; /* White text color */
+  text-decoration: none; /* Removes underline from links */
+  padding: 10px 15px; /* Adds padding around the links */
+  display: block; /* Ensures the entire padding area is clickable */
+}
+
+/* Navbar links on hover */
+nav a:hover {
+  background-color: #575757; /* Darker background color on hover */
+  border-radius: 4px; /* Rounded corners on hover */
+}
+
+/* Responsive design: navbar items stack vertically on smaller screens */
+@media (max-width: 768px) {
+  nav ul {
+      flex-direction: column; /* Stacks navbar items vertically */
+      align-items: center; /* Centers items horizontally */
+  }
+
+  nav a {
+      padding: 10px; /* Adjusts padding for mobile view */
+  }
 }
