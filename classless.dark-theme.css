@@ -12,7 +12,7 @@
     --code: #ffbe85;
     --animation-duration: 0.1s;
     --button-base: #0c151c;
-    --button-hover: #040a0f;
+    --button-hover: #2d8bd3;
     --scrollbar-thumb: var(--button-hover);
     --scrollbar-thumb-hover: #000;
     --form-placeholder: #a9a9a9;
@@ -139,14 +139,13 @@
   }
   
   button, input[type=button], input[type=reset], input[type=submit] {
-    background-color: #0c151c;
-    background-color: var(--button-base);
+
+    background-color: #41adff;
     padding-right: 30px;
     padding-left: 30px;
   }
   
   button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover {
-    background: #040a0f;
     background: var(--button-hover);
   }
   
@@ -589,7 +588,7 @@ caption {
 
 /* Basic navbar container */
 nav {
-  background-color: #333; /* Dark background color for the navbar */
+  background-color: #161f27; /* Dark background color for the navbar */
   padding: 10px 20px; /* Padding around the navbar */
 }
 
@@ -617,7 +616,7 @@ nav a {
 
 /* Navbar links on hover */
 nav a:hover {
-  background-color: #575757; /* Darker background color on hover */
+  background-color: rgb(0, 0, 0); /* Darker background color on hover */
   border-radius: 4px; /* Rounded corners on hover */
 }
 
